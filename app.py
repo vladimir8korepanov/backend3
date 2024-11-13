@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import mail_send
 
 app = Flask(__name__)
-sender = mail_send.EmailSender('********@mail.ru', 'dQ9cz8UYEY7hBBsRdne3', '********@mail.ru')
+sender = mail_send.EmailSender('********@mail****', '*************', '********@mail.***')
 
 @app.route('/')
 def index():
